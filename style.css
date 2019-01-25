@@ -1,0 +1,144 @@
+.zero {
+  margin: 0px;
+  padding: 0px;
+}
+.hb {
+  box-shadow: 0 0 0 2px black;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  box-shadow: 0 0 0 2px black;
+  margin: 0 auto;
+  max-width: 980px;
+  height: 4300px;
+}
+.line {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+}
+.line0 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 880px;
+  margin-left: 50px;
+}
+.line1 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 720px;
+  margin-left: 130px;
+}
+.line2 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 560px;
+  margin-left: 210px;
+}
+.line3 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 400px;
+  margin-left: 290px;
+}
+.line4 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 240px;
+  margin-left: 370px;
+}
+.line5 {
+  position: absolute;
+  height: 4300px;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 450px;
+}
+.layout {
+  position: absolute;
+  background-image: url("Layout.png");
+  width: 980px;
+  height: 4300px;
+  opacity: 0.5;
+}
+.flex {
+  display: flex;
+}
+/* ========= Texts =========*/
+@font-face {
+  font-family: "Brush Script MT Italic";
+  src: url("fonts/BrushScriptMT-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("fonts/PalatinoLinotype.ttf") format("truetype");
+}
+h1 {
+  font-family: "Brush Script MT Italic";
+  margin-top: 0px;
+  font-size: 55pt;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 0 2px black;
+}
+.menuText {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.15rem;
+  width: 125px;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simpleText {
+  padding: 15px 10px 10px 50px;
+  font-family: "Palatino Linotype", sans-serif;
+  font-size: 1.1rem;
+}
+/* ========= Header ========= */
+.a {
+  padding: 65px 50px 0 50px;
+}
+.head_menu {
+  display: flex;
+  justify-content: space-around;
+}
+.slide_textBlock {
+  position: absolute;
+  margin: 15px auto auto -50px;
+  max-width: 610px;
+  height: 280px;
+  box-shadow: 0 0 0 2px black;
+}
+.social {
+  width: 865px;
+  display: flex;
+  justify-content: flex-end;
+}
+.social > ul {
+  position: absolute;
+  margin: -130px 50px 0 0;
+  width: 50px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+li {
+  list-style-type: none;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 2px black;
+}
